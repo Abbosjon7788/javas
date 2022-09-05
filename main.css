@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* agar height ni percentage da bersak, parent ida fixed height  */
+/* bolmasa, child height 0 boladi */
+
+.bg-image {
+  width: 100%;
+  padding-bottom: 42%;
+  background: url("./images/stop-war.webp") no-repeat center;
+  background-size: contain;
+}
